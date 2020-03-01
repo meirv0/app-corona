@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile typescript",
+            "command": "tsc -p .",
+            "type": "shell",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$tsc",
+        }
+      
+    ]
+}
