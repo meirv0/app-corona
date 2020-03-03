@@ -7,7 +7,7 @@ export async function getNearReports({ latitude, longitude, maxDistance, startDa
             $nearSphere: {
                 $geometry: {
                     type: 'Point',
-                    coordinates: [Number(latitude), Number(longitude)],
+                    coordinates: [Number(longitude), Number(latitude)],
                 },
                 $maxDistance: Number(maxDistance)
             }
