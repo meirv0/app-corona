@@ -20,7 +20,7 @@
   "homepage": "https://github.com/meirv0/app-corona#readme",
   "dependencies": {
     "@types/mongoose": "^5.7.3",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongoose": "^5.9.2",
     "typescript": "^3.8.3"
   },
